@@ -1,0 +1,9 @@
+*.pth
+*.pt
+*.h5
+*.ckpt
+logs/
+temp/
+__pycache__/
+.idea/
+.vscode/
