@@ -1,7 +1,7 @@
 # A windowing-based multi-view u-net for tumor segmentation in cone-beam breast CT
 
 ## Overview
-![framework](README.assets/framework.png)
+![framework](README.assets/framework.jpg)
 
 ## Environment
 - Anaconda3
@@ -46,4 +46,4 @@ where you can change the type of training model and multi-view training data.
 ```
 python predict.py
 ```
-For an input image, you can get tumor predicion mask in `./out.png`. If you have ground truth, you obtain metrics such as IoU, Dice, sensitivity, specificity, and HD95 from the test set.
+For an input image, you can get tumor predicion in `./out.png`. If you have ground truth, metrics including IoU, Dice, sensitivity, specificity, and HD95 will be computed.
