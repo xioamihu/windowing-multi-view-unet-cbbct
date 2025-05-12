@@ -32,7 +32,7 @@
     └── Stores mask files(.nii).
 ```
 ## Data Precessing
-Use windowing processing to convert DICOM sequences and NII mask files into images.
+Use windowing processing to convert DICOM series and NII mask files into images.
 ```
 python data_slice.py
 ```
