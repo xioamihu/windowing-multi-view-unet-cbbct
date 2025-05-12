@@ -1,4 +1,4 @@
-# A windowing-based multi-view u-net for tumor segmentation in cone-beam breast CT
+# [A windowing-based multi-view u-net for tumor segmentation in cone-beam breast CT](https://www.sciencedirect.com/science/article/pii/S1746809424015404)
 
 ## Overview
 ![framework](README.assets/framework.jpg)
@@ -47,3 +47,16 @@ where you can change the type of training model and multi-view training data.
 python predict.py
 ```
 For an input image, you can get tumor predicion in `./out.png`. If you have ground truth, metrics including IoU, Dice, sensitivity, specificity, and HD95 will be computed.
+
+## Citation
+```
+@article{peng2025windowing,
+  title={A windowing-based multi-view u-net for tumor segmentation in cone-beam breast CT},
+  author={Peng, Die and Su, Tong and Zheng, Yineng and Ouyang, Zubin and Chen, Bohui and Chen, Binlin and He, Jiaqi and Ma, Qiang and Yang, Liang and Li, Haofeng and others},
+  journal={Biomedical Signal Processing and Control},
+  volume={103},
+  pages={107482},
+  year={2025},
+  publisher={Elsevier}
+}
+```
